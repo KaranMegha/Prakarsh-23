@@ -8,7 +8,7 @@ import Event from "./components/Events/Event";
 import Sponsor from "./components/Sponsor/Sponsor";
 import { NavBar } from "./components/Nav/NavBar";
 import Glimpse from "./components/Glimpse/Glimpse";
-import Signup from "./components/Signup/Signup";
+import Signup from "./components/signup/Signup";
 import { render } from "@testing-library/react";
 const App = () => {
 
@@ -25,8 +25,8 @@ const App = () => {
         <NavBar/>
         <Home/>
         <About />
-        <Event />
-        <Team />
+        {/* <Event />
+        <Team /> */}
         {/* <Sponsor /> */}
         <Signup/>
         <Glimpse />

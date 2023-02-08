@@ -8,7 +8,8 @@
                 -5px -5px 10px rgba(172, 112, 255, 0.33);
     width: 17.5rem;
     /* height: fit-content; */
-    filter: drop-shadow(5px 5px 10px rgba(172, 112, 255, 0.33));  
+    filter: drop-shadow(5px 5px 10px rgba(172, 112, 255, 0.33));
+    margin: 1.5rem 0;  
 }
 .bg{
     margin: 15px;
