@@ -22,14 +22,12 @@ const Signup = () => {
 
             </div>
             
-<<<<<<< HEAD
-=======
+
              <div className="s-content">
               <div className="email">
                 Email: <input type="email"/> 
               </div>
              </div>
->>>>>>> 8823b651373b5423cdf7c57224838b969736e12b
 
             
 
