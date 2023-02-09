@@ -14,26 +14,19 @@ const Signup = () => {
               <input type="email"  required="required" />
               <span>
                 Email
+                
+                <div className="rect" />
               </span>
             </div>
-            <div className="sbtn">
-              <button type="button">Get Link</button>
-            </div>
+            <div className="sbtn" >
+              <button>
+              <div className="rect2"/>
+                Get Link
+              </button>
+      </div>
 
             </div>
-            
-
-             <div className="s-content">
-              <div className="email">
-                Email: <input type="email"/> 
-              </div>
-             </div>
-
-            
-
               
-              
-            
     </div>
   )
 }

@@ -6,6 +6,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
+    
     /* min-width: 2000px; */
 
 }
@@ -23,7 +24,12 @@
     letter-spacing: 10px;
     
 }
-
+.sbtn{
+    width: 150px;
+    height: 70px;
+    color: aquamarine;
+    z-index: 0;
+}
 .shead p{
     display: flex;
     justify-content: center;
@@ -39,10 +45,19 @@
     gap: 30px;
 
 }
-
+.rect{
+    width: 500px;
+    height: 50px;
+    border: solid rgba(106, 15, 233);
+    border-radius: 5px;
+    position: relative;
+    top: -31px;
+    right: 19px;
+}
 .inputbox{
     position: relative;
-    width: 250px;
+    width: 500px;
+    margin-top: 7rem;
 }
 
 .inputbox input{
@@ -69,12 +84,18 @@
     text-transform: uppercase;
 }
 
-.inputbox .input:valid ~ span,
-.inputbox .input:valid ~  span :focus
-{
+.sbtn button{
+    width: 40%;
+    height: 30px;
+    margin: 80px 150px;
+} 
 
+.rect2{
+    width: 100px;
+    height: 50px;
+    border: solid rgba(106, 15, 233);
+    border-radius: 5px;
+    position: relative;
+    top: -31px;
+    right: 19px;
 }
-
-
-
-
