@@ -25,10 +25,10 @@ const App = () => {
         <NavBar/>
         <Home/>
         <About />
-        <Event />
+        {/* <Event /> */}
         {/* <Team /> */}
         {/* <Sponsor /> */}
-        <Signup/>
+        {/* <Signup/> */}
         <Glimpse />
         <Footer />
     </div>
