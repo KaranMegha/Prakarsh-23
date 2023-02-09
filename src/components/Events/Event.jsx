@@ -2,6 +2,7 @@ import React from 'react'
 import './Event.css'
 import { EventCard } from './EventCard'
 import { Row, Col } from "react-bootstrap";
+import bg from '../../assets/bgprakarsh.png';
 
 function Event() {
   const event = [
@@ -61,7 +62,9 @@ function Event() {
     },
   ];
   return(
-    <section className="Events container" id="event">
+    
+    <section className="container" id="event">
+
       <div className="heading head mx-auto d-flex align-items-center justify-content-center">
           <h2
             className="abouthead "
@@ -73,7 +76,7 @@ function Event() {
             Events
           </h2>
           <h2 className="front-text mx-auto">Events</h2>
-        </div>
+        </div>  
     <Row>
       
       {event.map((members) => (
@@ -89,8 +92,7 @@ function Event() {
             </Col>
           ))}
     </Row>
-          
-
+    
     </section>
   );
   
