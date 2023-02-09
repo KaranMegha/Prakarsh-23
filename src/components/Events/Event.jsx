@@ -31,7 +31,7 @@ function Event() {
     },
     {
       imgurl: "assests/Events/innovative.png",
-      title: "inovative heist",
+      title: "arcadian evovle",
       description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna leo, porta a justo at, suscipit scelerisque erat. Quisque risus dui, ultrices ac semper sed,",
       link: "",
     },
