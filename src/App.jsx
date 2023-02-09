@@ -25,9 +25,9 @@ const App = () => {
         <NavBar/>
         <Home/>
         <About />
-        {/* <Event />
-        <Team /> */}
-        {/* <Sponsor /> */}
+        {/* <Event /> */}
+        {/* <Team /> */}
+        {/* <Sponsor />  */}
         {/* <Signup/> */}
         <Glimpse />
         <Footer />
