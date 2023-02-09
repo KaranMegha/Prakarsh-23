@@ -97,7 +97,7 @@ function Team() {
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
-                      id="slideInUp"
+                      id="slideInDown "
                       className={isVisible ? "" : ""}
                     >
                       <Tab.Pane eventKey="first">

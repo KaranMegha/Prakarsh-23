@@ -32,3 +32,53 @@
 }
 
 
+<<<<<<< HEAD
+.scontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.inputbox{
+    position: relative;
+    width: 250px;
+}
+
+.inputbox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid  rgb(1, 209, 105);
+    background: rgb(1, 15, 20,0.25);
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 1em; 
+    
+}
+
+.inputbox span{
+
+    position: absolute;
+    left:0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgb(1, 209, 105,0.5);
+
+    text-transform: uppercase;
+}
+
+.inputbox .input:valid ~ span,
+.inputbox .input:valid ~  span :focus
+{
+
+}
+
+
+
+
+=======
+>>>>>>> 8823b651373b5423cdf7c57224838b969736e12b
