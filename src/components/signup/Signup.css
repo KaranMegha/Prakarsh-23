@@ -24,12 +24,7 @@
     letter-spacing: 10px;
     
 }
-.sbtn{
-    width: 150px;
-    height: 70px;
-    color: aquamarine;
-    z-index: 0;
-}
+
 .shead p{
     display: flex;
     justify-content: center;
@@ -48,28 +43,38 @@
 .rect{
     width: 500px;
     height: 50px;
-    border: solid rgba(106, 15, 233);
+    border: solid rgb(1, 209, 105);
     border-radius: 5px;
     position: relative;
-    top: -31px;
-    right: 19px;
+    background-color: #1d2a2e;
+
+    bottom: 58px;
+    z-index: 0;
+    right: 11px;
 }
 .inputbox{
     position: relative;
     width: 500px;
     margin-top: 7rem;
+    
+
 }
 
 .inputbox input{
+    /* z-index:0; */
     width: 100%;
     padding: 10px;
-    border: 1px solid  rgb(1, 209, 105);
-    /* background: rgb(1, 15, 20,0.25); */
-    background-color: #1d2a2e;
+    height: 52px;
+    /* border: 1px solid  rgb(1, 209, 105); */
+    border: 3px solid  rgba(106, 15, 233); ;
     border-radius: 5px;
+    background-color: transparent;
     outline: none;
     color: #fff;
-    font-size: 1em; 
+    font-size: 1.4em; 
+    position: relative;
+    bottom: 118px;
+    right: 21px;
     
 }
 
@@ -85,25 +90,25 @@
     text-transform: uppercase;
 }
 
-.sbtn button{
-    width: 10rem;
-    height: 50px;
+.btn-primary {
+    width: 120px;
+    height: 40px;
     background-color: #1d2a2e;
     border: 1px solid rgb(1, 209, 105);
     border-radius: 5px;
     color: rgb(1, 209, 105);
     position: relative;
-    left: 10px;
-    bottom: 5px;
+    left: 180px;
+    bottom: 80px;
 } 
 
 .sbtn{
-    width: 152px;
-    height: 56px;
+    width: 120px;
+    height: 40px;
     border: solid rgba(106, 15, 233);
     border-radius: 5px;
     position: relative;
-    top: 14px;
-    left: 150px;
+    bottom: 35px;
+    right: 9px;
 }
 
