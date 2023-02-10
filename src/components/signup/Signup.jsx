@@ -13,7 +13,7 @@ const Signup = () => {
                 <div className="inputbox">
                 <div className="rect" />
                   
-              <input type="email"  required="required" />
+              <input type="email"   required="required" />
             </div>
             <button className="btn-primary">
             Get Link

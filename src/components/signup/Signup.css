@@ -112,3 +112,122 @@
     right: 9px;
 }
 
+@media (max-width:800px) {
+
+    .signup{
+        background: url('../../assets/bgprakarsh.png');
+        height: 70vh;
+        /* width: 100vw; */
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        
+        /* min-width: 2000px; */
+    
+    }
+    
+    .shead h1{
+        padding-top: 5rem;
+        font-size: 2rem;
+        font-family: 'valorant';
+        display: flex;
+        justify-content: center;
+        background: linear-gradient( 180deg,rgba(128, 128, 128) 1.25%, rgba(128, 128, 128)1.26%, rgba(255, 255, 255) 1.27%, rgba(255,255,255,0.4) 69.7%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        letter-spacing: 10px;
+        
+    }
+    
+    .shead p{
+        display: flex;
+        justify-content: center;
+        font-family: 'valorant';
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .scontent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* gap: 30px; */
+    
+    }
+    .rect{
+        width: 90%;
+        height: 50px;
+        border: solid rgb(1, 209, 105);
+        border-radius: 5px;
+        position: relative;
+        background-color: #1d2a2e;
+        left:30px;
+        bottom: 58px;
+        z-index: 0;
+        /* right: 11px; */
+    }
+    .inputbox{
+        position: relative;
+        width: 100%;
+        margin-top: 7rem;
+        
+    
+    }
+    
+    .inputbox input{
+        /* z-index:0; */
+        width: 90% ;
+        padding: 10px;
+        height: 52px;
+        /* border: 1px solid  rgb(1, 209, 105); */
+        border: 3px solid  rgba(106, 15, 233); ;
+        border-radius: 5px;
+        background-color: transparent;
+        outline: none;
+        color: #fff;
+        font-size: 1.4em; 
+        position: relative;
+        bottom: 118px;
+        right: 18px;
+        left:20px
+        
+    }
+    
+    .inputbox span{
+    
+        position: absolute;
+        left:0;
+        padding: 10px;
+        pointer-events: none;
+        font-size: 1em;
+        color: rgb(1, 209, 105,0.5);
+        color: transparent;
+        text-transform: uppercase;;
+    }
+    
+    .btn-primary {
+        width: 120px;
+        height: 40px;
+        background-color: #1d2a2e;
+        border: 1px solid rgb(1, 209, 105);
+        border-radius: 5px;
+        color: rgb(1, 209, 105);
+        position: relative;
+        left: 130px;
+        bottom: 80px;
+    } 
+    
+    .sbtn{
+        width: 120px;
+        height: 40px;
+        border: solid rgba(106, 15, 233);
+        border-radius: 5px;
+        position: relative;
+        bottom: 35px;
+        right: 9px;
+    }
+    
+}
