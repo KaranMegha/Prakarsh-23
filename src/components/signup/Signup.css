@@ -112,6 +112,13 @@
     right: 9px;
 }
 
+::placeholder{
+        display: flex;
+        justify-content: center;
+        color: aquamarine;
+        padding-left: 30%;
+}
+
 @media (max-width:800px) {
 
     .signup{
