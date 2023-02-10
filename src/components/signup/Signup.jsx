@@ -18,10 +18,12 @@ const Signup = () => {
                 <div className="rect" />
               </span>
             </div>
+
             <div className="sbtn" >
-              <button>
-              <div className="rect2"/>
+              <button className="btn btn-primary">
                 Get Link
+              {/* <div className="rect2"/> */}
+              
               </button>
       </div>
 

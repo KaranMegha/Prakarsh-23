@@ -64,7 +64,8 @@
     width: 100%;
     padding: 10px;
     border: 1px solid  rgb(1, 209, 105);
-    background: rgb(1, 15, 20,0.25);
+    /* background: rgb(1, 15, 20,0.25); */
+    background-color: #1d2a2e;
     border-radius: 5px;
     outline: none;
     color: #fff;
@@ -85,17 +86,24 @@
 }
 
 .sbtn button{
-    width: 40%;
-    height: 30px;
-    margin: 80px 150px;
+    width: 10rem;
+    height: 50px;
+    background-color: #1d2a2e;
+    border: 1px solid rgb(1, 209, 105);
+    border-radius: 5px;
+    color: rgb(1, 209, 105);
+    position: relative;
+    left: 10px;
+    bottom: 5px;
 } 
 
-.rect2{
-    width: 100px;
-    height: 50px;
+.sbtn{
+    width: 152px;
+    height: 56px;
     border: solid rgba(106, 15, 233);
     border-radius: 5px;
     position: relative;
-    top: -31px;
-    right: 19px;
+    top: 14px;
+    left: 150px;
 }
+
