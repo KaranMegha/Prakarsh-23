@@ -1,10 +1,22 @@
-import React from "react";
+import React,{useEffect,useRef} from "react";
 import "./Home.css";
 import IMG from "../../assets/logo.svg";
 import Title from "../../assets/title.png";
 const Home = () => {
+
+  const vidRef = useRef(null);
+
+  useEffect(()=>{
+    handlePlayVideo();
+  },[])
+  const handlePlayVideo = () => {
+    vidRef.current.play();
+  }
+
+
   return (
     <section id="home">
+      
       <div className="container home__container">
         <div className="home__content">
           <div className="home__title">
@@ -23,14 +35,16 @@ const Home = () => {
           <div className="home__btn"></div>
         </div>
 
-         <img src={IMG} alt="Muted Video" />
-    <div
-      
-    />
-
-            {/* <img src={IMG} style={{repeat:'no-repeat'}} alt="" /> */}
-            {/* <p>1-2 April</p> */}
-        </div>
+            <video 
+            title="Advertisement"
+            webkit-playsinline="true"
+            playsinline="true"
+             width="600px"
+            autoplay="true"
+            muted="muted"
+            ref={vidRef} src={"/assests/loader.mp4"} playsInline={true}/>
+         {/* <img src={IMG} alt="Muted Video" />   */}
+      </div>
     </section>
   );
 };
