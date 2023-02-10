@@ -12,14 +12,8 @@ import Signup from "./components/Signup/Signup";
 import { render } from "@testing-library/react";
 const App = () => {
 
-  const divRef = useRef();
-
-  function myFunction() {
-    const timer = setTimeout(() => {divRef.current.style.display = "none";}, 2000);
-    console.log('hello');
-  }
   return (
-    <div  onLoad={myFunction}>
+    <div >
         {/* <div className="loader" ref={divRef}>
         </div> */}
         <NavBar/>
