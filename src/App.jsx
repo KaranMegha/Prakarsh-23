@@ -23,7 +23,7 @@ const App = () => {
         {/* <Team /> */}
         {/* <Sponsor /> */}
         <Glimpse />
-      {/* <Signup/> */}
+      <Signup/>
         <Footer />
     </div>
   );
