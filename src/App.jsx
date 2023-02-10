@@ -9,7 +9,6 @@ import Sponsor from "./components/Sponsor/Sponsor";
 import { NavBar } from "./components/Nav/NavBar";
 import Glimpse from "./components/Glimpse/Glimpse";
 import { render } from "@testing-library/react";
-import Signup from "./components/Signup/Signup";
 const App = () => {
 
   return (
@@ -22,7 +21,6 @@ const App = () => {
         {/* <Event /> */}
         {/* <Team /> */}
         {/* <Sponsor /> */}
-        <Signup/>
         <Glimpse />
         <Footer />
     </div>
