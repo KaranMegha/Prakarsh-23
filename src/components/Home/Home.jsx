@@ -35,15 +35,15 @@ const Home = () => {
           <div className="home__btn"></div>
         </div>
 
-            <video 
+            {/* <video 
             title="Advertisement"
             webkit-playsinline="true"
             playsinline="true"
              width="600px"
             autoplay="true"
             muted="muted"
-            ref={vidRef} src={"/assests/loader.mp4"} playsInline={true}/>
-         {/* <img src={IMG} alt="Muted Video" />   */}
+            ref={vidRef} src={"/assests/loader.mp4"} playsInline={true}/> */}
+         <img src={IMG} alt="Muted Video" />  
       </div>
     </section>
   );
