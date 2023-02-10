@@ -86,8 +86,8 @@
     pointer-events: none;
     font-size: 1em;
     color: rgb(1, 209, 105,0.5);
-
-    text-transform: uppercase;
+    color: transparent;
+    text-transform: uppercase;;
 }
 
 .btn-primary {
