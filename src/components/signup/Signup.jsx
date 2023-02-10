@@ -11,7 +11,7 @@ const Signup = () => {
             </div>
             <div className="scontent">
                 <div className="inputbox">
-              <input type="email"  required="required" />
+              <input type="email"  required="required" placeholder='Email'/>
               <span>
                 Email
                 
