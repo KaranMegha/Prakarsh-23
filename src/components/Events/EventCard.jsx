@@ -16,7 +16,7 @@ export const EventCard = ({ imgurl, title, description,link}) => {
         <Card.Text className='description  mx-auto d-flex align-items-center justify-content-center'>
           {description}
         </Card.Text>
-        <Button className='mx-auto d-flex align-items-center justify-content-center btne' variant="primary" href={link}>view more</Button>
+        <Button className='mx-auto d-flex align-items-center justify-content-center button' variant="primary" href={link}>view more</Button>
       </Card.Body>
     </Card>
     </div>

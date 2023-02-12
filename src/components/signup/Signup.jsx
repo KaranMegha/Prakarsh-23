@@ -15,7 +15,7 @@ const Signup = () => {
                   
               <input type="email" placeholder=' Enter your Email'  required="required" />
             </div>
-            <button className="btn-primary">
+            <button className="btnprimary">
             Get Link
             <div className="sbtn" />
           

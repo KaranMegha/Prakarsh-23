@@ -90,7 +90,7 @@
     text-transform: uppercase;;
 }
 
-.btn-primary {
+.btnprimary {
     width: 120px;
     height: 40px;
     background-color: #1d2a2e;
@@ -215,7 +215,7 @@
         text-transform: uppercase;;
     }
     
-    .btn-primary {
+    .btnprimary {
         width: 120px;
         height: 40px;
         background-color: #1d2a2e;

@@ -46,7 +46,7 @@
     line-height: 18px;
     text-align: center;
 }
-.btne{
+.button{
     background: linear-gradient(180deg, rgba(98, 212, 237, 0.8) -27.94%, rgba(172, 112, 255, 0.79) 76.47%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
