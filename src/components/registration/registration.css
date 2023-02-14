@@ -1,0 +1,90 @@
+.registration{
+    background: url('../../assets/bgprakarsh.png');
+    height: fit-content;
+    /* width: max-content; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+
+}
+
+.rhead h1{
+    font-size: 3rem;
+    font-family: 'valorant';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( 180deg,rgba(128, 128, 128) 1.25%, rgba(128, 128, 128)1.26%, rgba(255, 255, 255) 1.27%, rgba(255,255,255,0.4) 69.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 10px;
+    
+}
+.rcontent{
+    padding: 20px; 
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    /* grid-auto-rows: 300px; */
+
+}
+
+.first{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.second{
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-self: center;
+    grid-column-start: 1;
+    
+}
+
+.try{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 1px; */
+}
+
+.pad{
+    margin: 20px;
+}
+.try-2{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.r-rect{
+    width: 500px;
+    height: 50px;
+    border: solid rgb(1, 209, 105);
+    border-radius: 5px;
+    position: relative;
+    background-color: #1d2a2e;
+    bottom: 58px;
+    z-index: 0;
+    right: 11px;
+}
+ 
+
+/* .inputbox input{
+    width: 100%;
+    padding: 10px;
+    height: 52px;
+    border: 3px solid  rgba(106, 15, 233); ;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 1.4em; 
+    position: relative;
+    bottom: 118px;
+    right: 21px;
+    
+} */

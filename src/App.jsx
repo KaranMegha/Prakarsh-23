@@ -9,6 +9,7 @@ import Sponsor from "./components/Sponsor/Sponsor";
 import { NavBar } from "./components/Nav/NavBar";
 import Glimpse from "./components/Glimpse/Glimpse";
 import Signup from "./components/Signup/Signup";
+import Registration from "./components/registration/registration";
 import { render } from "@testing-library/react";
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
         {/* <Sponsor /> */}
         <Glimpse />
       <Signup/>
+      <Registration/>
         <Footer />
     </div>
   );
