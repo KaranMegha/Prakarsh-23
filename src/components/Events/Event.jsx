@@ -63,7 +63,7 @@ function Event() {
   ];
   return(
     
-    <section className="container" id="event">
+    <section className="container" id="Events">
 
       <div className="heading head mx-auto d-flex align-items-center justify-content-center">
           <h2

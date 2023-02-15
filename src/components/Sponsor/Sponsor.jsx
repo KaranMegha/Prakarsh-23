@@ -3,7 +3,7 @@ import "./Sponsor.css";
 
 function Sponsor() {
   return (
-    <Carousel id="sponser">
+    <section id="sponser">
       <div className="heading">
         <h2
           className="abouthead"
@@ -16,6 +16,7 @@ function Sponsor() {
         </h2>
         <h2 className="front-text"> Sponsor</h2>
       </div>
+      <Carousel>
       <Carousel.Item interval={2000}>
         <img
           className="mx-auto c-block"
@@ -43,29 +44,23 @@ function Sponsor() {
           src="assests/Sponsor/GOLD-SPONSOR.png"
           alt="Fourth slide"
         />
-        <Carousel.Item interval={2000}>
-          <img
-            className="mx-auto d-block"
-            src="assests/Sponsor/SILVER-SPONSOR.png"
-            alt="Fifth slide"
-          />
-        </Carousel.Item>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img
           className="mx-auto d-block"
           src="assests/Sponsor/SILVER-SPONSOR.png"
-          alt="sixth slide"
+          alt="Fifth slide"
         />
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img
           className="mx-auto d-block"
           src="assests/Sponsor/BRONZE-SPONSOR.png"
-          alt="Seventh slide"
+          alt="Sixth slide"
         />
       </Carousel.Item>
-    </Carousel>
+      </Carousel>
+    </section>
   );
 }
 

@@ -2,6 +2,7 @@ import React,{useEffect,useRef} from "react";
 import "./Home.css";
 import IMG from "../../assets/logo.svg";
 import Title from "../../assets/title.png";
+import { NavBar } from "../Nav/NavBar";
 const Home = () => {
 
   const vidRef = useRef(null);
@@ -15,8 +16,9 @@ const Home = () => {
 
 
   return (
+    
     <section id="home">
-      
+      {/* <NavBar/> */}
       <div className="container home__container">
         <div className="home__content">
           <div className="home__title">

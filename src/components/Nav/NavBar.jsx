@@ -41,7 +41,7 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link
+              {/* <Nav.Link
                 href="#home"
                 className={
                   activeLink === "home" ? "active navbar-link" : "navbar-link"
@@ -49,9 +49,9 @@ export const NavBar = () => {
                 onClick={() => onUpdateActiveLink("home")}
               >
                 Home
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link
-                href="#About"
+                href="/#About"
                 className={
                   activeLink === "About" ? "active navbar-link" : "navbar-link"
                 }
@@ -59,17 +59,17 @@ export const NavBar = () => {
               >
                 About
               </Nav.Link>
-              {/* <Nav.Link
-                href="#"
+              <Nav.Link
+                href="/#Events"
                 className={
                   activeLink === "Events" ? "active navbar-link" : "navbar-link"
                 }
                 onClick={() => onUpdateActiveLink("Events")}
               >
                 Events
-              </Nav.Link> */}
+              </Nav.Link>
               <Nav.Link
-                href="#Glimpse"
+                href="/#Glimpse"
                 className={
                   activeLink === "Glimpse"
                     ? "active navbar-link"
@@ -79,8 +79,8 @@ export const NavBar = () => {
               >
                 Glimpse
               </Nav.Link>
-              {/* <Nav.Link
-                href="#sponser"
+              <Nav.Link
+                href="/#sponser"
                 className={
                   activeLink === "Sponser"
                     ? "active navbar-link"
@@ -91,23 +91,23 @@ export const NavBar = () => {
                 Sponser
               </Nav.Link>
               <Nav.Link
-                href="#"
+                href="/signup"
                 className={
-                  activeLink === "Signup" ? "active navbar-link" : "navbar-link"
+                  activeLink === "signup" ? "active navbar-link" : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("signup")}
+                onClick={() => onUpdateActiveLink("/signup")}
               >
                 SignUp
               </Nav.Link>
               <Nav.Link
-                href="#"
+                href="/signup"
                 className={
-                  activeLink === "Signup" ? "active navbar-link" : "navbar-link"
+                  activeLink === "signup" ? "active navbar-link" : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("signup")}
+                onClick={() => onUpdateActiveLink("/signup")}
               >
                 <FiShoppingCart />
-              </Nav.Link> */}
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
