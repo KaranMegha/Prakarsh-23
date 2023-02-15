@@ -31,17 +31,17 @@ const registration = () => {
            <div className="try">
 
                 <div className="inputbox pad ">
-                    <div className="rect" />
+                    <div className="rect r-rect" />
                     <input type="email" placeholder=' email'  required="required" />
                 </div>
 
                  <div className="inputbox pad">
-                    <div className="rect" />
+                    <div className="rect r-rect" />
                 <input type="text" placeholder=' phone Number'  required="required" />
                     </div>
 
                 <div className="inputbox pad">
-                    <div className="rect" />
+                    <div className="rect r-rect" />
                 <input type="text" placeholder=' College name'  required="required" />
                 </div>
 
@@ -52,18 +52,23 @@ const registration = () => {
 
               <div className="try-2">
                   <div className="inputbox pad ">
-                        <div className="rect" />
+                        <div className="rect r-rect" />
                        <input type="text" placeholder=' Department'  required="required" />
                      </div>
 
                 <div className="inputbox pad">
-                        <div className="rect" />
+                        <div className="rect r-rect" />
                     <input type="text" placeholder='YEAR'  required="required" />
                  </div>
               </div>
           
         </div>
            
+        <button className="btnprimary r-rect ">
+            Get Link
+            <div className="sbtn " />
+          
+        </button>
 
 
 
