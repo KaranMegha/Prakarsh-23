@@ -3,6 +3,9 @@ import './Event.css'
 import { EventCard } from './EventCard'
 import { Row, Col } from "react-bootstrap";
 import bg from '../../assets/bgprakarsh.png';
+import { useEffect, useState } from 'react';
+import supabase from '../../lib/client'
+
 
 function Event() {
   const event = [
@@ -61,6 +64,17 @@ function Event() {
       link: "",
     },
   ];
+  
+  // const [event, setEvent] = useState([]);
+  // useEffect(() => {
+  //   async function getEvents() {
+  //     let { data, error } = await supabase.from("Event").select("*").eq("catagory", "cyber intrusion");
+  //     setEvent(data);
+  //   }
+
+  //   getEvents();
+  // }, []);
+  
   return(
     
     <section className="container" id="Events">
@@ -83,7 +97,7 @@ function Event() {
            <Col>
             <EventCard 
             item={members}
-            imgurl={members.imgurl}
+            imgurl={members.image}
             title={members.title}
             description={members.description}
             link={members.link}
