@@ -1,7 +1,8 @@
 import React from 'react'
 import { Col } from "react-bootstrap";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
-export const TeamCard = ({name, imgUrl, githublink, animation}) => {
+export const TeamCard = ({name,Position, imgUrl, githublink, linkdnlink,animation}) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx mx-auto ">
@@ -9,10 +10,14 @@ export const TeamCard = ({name, imgUrl, githublink, animation}) => {
         
         <div className="proj-txtx">
           <div className="link">
-          <a href={githublink}>Github</a>
+          <a href={githublink}><AiFillGithub/></a>
+          <a href={linkdnlink}><AiFillLinkedin/></a>
           </div>
         </div>
-        <p>{name}</p>
+        <div className="title ">
+        <p className='name mx-auto d-flex align-items-center justify-content-center'>{name}</p>
+        <p className='name mx-auto d-flex align-items-center justify-content-center'>{Position}</p>
+        </div>
       </div>
       
     </Col>

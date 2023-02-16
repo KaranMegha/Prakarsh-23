@@ -20,7 +20,7 @@
 
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
-  font-family: Syncopate;
+  font-family: 'valorant';
   font-weight: 300px;
   color: #fff;
   width: 100%;
@@ -73,8 +73,8 @@
   content: "";
   background: linear-gradient(
     90.21deg,
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.5)
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)
   );
   opacity: 0.85;
   position: absolute;
@@ -86,7 +86,11 @@
 .proj-imgbx:hover::before {
   height: 100%;
 }
-
+.link a{
+  color: #000;
+  font-size: 30px;
+  padding: 2px;
+}
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -96,13 +100,18 @@
   transition: 0.5s ease-in-out;
   opacity: 0;
 }
-
+.title p{
+  padding: 1px;
+  margin: 0;
+  font-family: ubuntu;
+  font-weight: 700;
+}
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
 }
 .proj-imgbx{
-  background: #13274b;
+  /* background: #13274b; */
 }
 .proj-txtx h4 {
   font-size: 30px;
