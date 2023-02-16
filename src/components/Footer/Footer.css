@@ -69,6 +69,14 @@
     justify-content: space-between;
 }
 
+.icon{
+    justify-content: space-between;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
 .icon a {
     margin: 0 5px;
     font-size: 25px;
@@ -111,5 +119,13 @@
         display: block;
         text-decoration: none;
         color: white;
+    }
+    .icon{
+        display: inline;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 20px;
     }
 }

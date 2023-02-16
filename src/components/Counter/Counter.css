@@ -1,0 +1,25 @@
+#timeCounter{
+    border: 1px solid white;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 200px;
+    margin: 0;
+}
+
+/* hr{
+    border-top: 10px solid #fff;
+} */
+
+.counter{
+    display: flex;
+    justify-content: space-between;
+    font-size: 90px;
+    margin: 0;
+    align-items: center;
+}
+
+.counter p{
+    font-size: 25px;
+    margin: 0;
+}

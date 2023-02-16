@@ -10,19 +10,41 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import belowfooterlogo from "../../assets/belowfooterlogo.svg";
-
+import Counter from "../Counter/Counter";
 import svit from '../../assets/svitlogo.png'
 
 
-function Footer() {
+class Footer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.submit = this.submit.bind(this);
+    this.state = {
+      currentDate: new Date(),
+      dateEnter: "07 April, 2023"
+    };
+    console.log(this.state.currentDate);
+  }
+
+  submit() {
+    let userDateEnter = this.refs.dateEnter.value;
+    this.setState({
+      dateEnter: userDateEnter
+    });
+    console.log(userDateEnter);
+  }
+
+render(){
   return (
 
     <section id="footer">
+      
       <div className="f">
         <div className="footer">
           <div className=" left">
-            <img src={footer} />
+            <img src={footer} alt="footer"/>
+            
           </div>
+          
           <div className="right">
             {/* <h1>
               <b> contact us </b>{" "}
@@ -43,7 +65,12 @@ function Footer() {
                 <AiFillPhone className="ficons" /> 0123456789{" "}
               </a> */}
 
-              <div className="icon mx-auto d-flex align-items-center justify-content-center p-2">
+              <div className="icon">
+              <Counter
+          date={this.state.dateEnter}
+          currentDate={this.state.currentDate}
+        />
+        <div className="icons">
                 <a href="https://instagram.com/svitprakarsh?igshid=OGQ2MjdiOTE=">
                   <BsInstagram />
                 </a>
@@ -56,6 +83,7 @@ function Footer() {
                 <a href="https://www.facebook.com/SVIT.Vasad.Official">
                   <AiFillFacebook />
                 </a>
+                </div>
               </div>
             </div>
           </div>
@@ -70,6 +98,7 @@ function Footer() {
     </div>
 </section>
   );
+}
 }
 
 export default Footer;
