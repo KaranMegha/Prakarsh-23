@@ -7,6 +7,7 @@ import Glimpse from './Glimpse/Glimpse';
 import Sponsor from './Sponsor/Sponsor';
 import Team from './Team/Team';
 import Footer from './Footer/Footer';
+import SEvent from './SpecEvents/SEvent';
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Home/>
       <About/>
       <Event/>
+      <SEvent/>
       <Sponsor/>
       <Team/>
       <Glimpse/>

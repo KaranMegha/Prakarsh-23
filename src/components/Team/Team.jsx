@@ -11,24 +11,32 @@ function Team() {
       name: "Prakarsh",
       animation: "",
       githublink: "",
+      linkdnlink: "",
+      Position: "Developer",
     },
     {
       imgUrl: "logo192.png",
       name: "Prakarsh",
       animation: "",
       githublink: "",
+      linkdnlink: "",
+      Position: "Developer",
     },
     {
       imgUrl: "logo192.png",
       name: "Prakarsh",
       animation: "",
       githublink: "",
+      linkdnlink: "",
+      Position: "Developer",
     },
     {
       imgUrl: "logo192.png",
       name: "Prakarsh",
       animation: "",
       githublink: "",
+      linkdnlink: "",
+      Position: "Developer",
     },
   ];
 
@@ -38,24 +46,32 @@ function Team() {
       name: "Developers",
       animation: "",
       githublink: "",
+      linkdnlink: "",
+      Position: "Developer",
     },
     {
       imgUrl: "logo192.png",
       name: "Developers",
       animation: "",
       githublink: "",
+      linkdnlink: "",
+      Position: "Developer",
     },
     {
       imgUrl: "logo192.png",
       name: "Developers",
       animation: "",
       githublink: "",
+      linkdnlink: "",
+      Position: "Developer",
     },
     {
       imgUrl: "logo192.png",
       name: "Developers",
       animation: "",
       githublink: "",
+      linkdnlink: "",
+      Position: "Developer",
     },
   ];
 
@@ -70,7 +86,7 @@ function Team() {
             // data-aos-easing="ease-in-out"
             // data-aos-delay="500"
           >
-            Team
+            &nbsp;&nbsp;Team
           </h2>
           <h2 className="front-text mx-auto">Team</h2>
         </div>
