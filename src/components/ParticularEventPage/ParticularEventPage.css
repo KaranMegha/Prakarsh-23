@@ -1,0 +1,171 @@
+
+body{
+	display: flex;
+	justify-content: center;
+	background: #000000;
+	background-image: url("../../assets/bgsquares.svg");
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+	font-family: valorant;
+	background:linear-gradient(180deg, rgba(98, 212, 237, 0.8) -27.94%, rgba(172, 112, 255, 0.79) 76.47%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 80px;
+}
+
+.ParticularEventPageDiv{
+	margin-top: 40px;
+	display: flex;
+	align-items: top;
+}
+
+.displayimgdiv{
+	width: 20vw;
+	margin-right: 30px;
+}
+
+.EventDisc{
+	height: 300px;
+	width: 60vw;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	justify-content: center;
+	background: radial-gradient(circle at 100% 100%, #000000 0, #000000 12px, transparent 12px) 0% 0%/14px 14px no-repeat,
+            radial-gradient(circle at 0 100%, #000000 0, #000000 12px, transparent 12px) 100% 0%/14px 14px no-repeat,
+            radial-gradient(circle at 100% 0, #000000 0, #000000 12px, transparent 12px) 0% 100%/14px 14px no-repeat,
+            radial-gradient(circle at 0 0, #000000 0, #000000 12px, transparent 12px) 100% 100%/14px 14px no-repeat,
+            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 4px) calc(100% - 28px) no-repeat,
+            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 28px) calc(100% - 4px) no-repeat,
+            linear-gradient(36deg, #cbfbff 0%, #ff6fea 100%);
+	box-sizing: content-box;
+
+	background-image: rgb(168,167,167);
+/*	background: linear-gradient(43deg, rgba(168,167,167,0.4245689655172413) 0%, rgba(62,200,236,0) 100%);*/
+}
+
+.div{
+	height: 30%;
+	display: flex;
+	align-items: top;
+	margin-bottom: 10px;
+	justify-content: space-between;
+}
+.div h2{
+	font-family: 'VALORANT';
+	 white-space: nowrap;
+	background: linear-gradient(180deg, rgba(98, 212, 237, 0.8) 0%, rgba(172, 112, 255, 0.79) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.disc{
+/*	max-width: 70%;*/
+	
+} 
+
+.disc p{
+	margin-left: 20px;
+	font-family: 'ubuntu';
+	font-style: normal;
+	/*font-weight: 10;*/
+	font-size: 1rem;
+	text-align: center;
+}
+
+.bottomdiv{
+	margin-top: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+button{
+	margin-left: 20px;
+	width: 210px;
+	height: 50px;
+	border-radius: 15px;
+	font-family: valorant;
+	background: radial-gradient(circle at 100% 100%, #000000 0, #000000 12px, transparent 12px) 0% 0%/14px 14px no-repeat,
+            radial-gradient(circle at 0 100%, #000000 0, #000000 12px, transparent 12px) 100% 0%/14px 14px no-repeat,
+            radial-gradient(circle at 100% 0, #000000 0, #000000 12px, transparent 12px) 0% 100%/14px 14px no-repeat,
+            radial-gradient(circle at 0 0, #000000 0, #000000 12px, transparent 12px) 100% 100%/14px 14px no-repeat,
+            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 4px) calc(100% - 28px) no-repeat,
+            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 28px) calc(100% - 4px) no-repeat,
+            linear-gradient(36deg, #cbfbff 0%, #ff6fea 100%);
+	box-sizing: content-box;
+
+}
+
+h2{
+	font-family: 'VALORANT';
+	margin-top: 10px;
+}
+button p{
+	margin-top: 10px;
+	background: linear-gradient(180deg, rgba(98, 212, 237, 0.8) 0%, rgba(172, 112, 255, 0.79) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+
+}
+/*@media (max-width:900px){
+	.disc p{
+		font-size: 1rem;
+	}
+}*/
+@media (max-width:780px){
+	h1{
+		margin-top: 100px;
+	}
+ .ParticularEventPageDiv{
+ 	flex-direction: column;
+ 	align-items: center;
+ }
+ .EventDisc{
+width: 80vw;
+margin: none;
+height: fit-content;
+ }
+ .rightdiv{
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ }
+ .displayimgdiv{
+ 	width: 30vw;
+ 	margin-bottom: 20px;
+ }
+ .disc p{
+ 	font-size: 10px;
+   -webkit-box-orient: vertical;
+   text-align: center;
+/*   width: 100%;*/
+
+ }
+ .div h2{
+ 	font-size: 13px;
+ }
+ .div{
+ 	margin: 10px 10px 0 0;
+ 	height: fit-content;
+ }
+ .displayimgdiv{
+ 	width: 50vw;
+ 	margin-right: 0px;
+ }
+ .bottomdiv{
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+button{
+	margin-left: 0px;
+}
+}
