@@ -68,7 +68,7 @@
     padding: 10px;
     height: 52px;
     /* border: 1px solid  rgb(1, 209, 105); */
-    border: 3px solid  rgba(106, 15, 233); ;
+    border: 3px solid  rgb(1, 78, 73) ;
     border-radius: 5px;
     background-color: transparent;
     outline: none;
@@ -107,7 +107,7 @@
 .sbtn{
     width: 120px;
     height: 40px;
-    border: solid rgba(106, 15, 233);
+    border: solid rgb(1, 78, 73);
     border-radius: 5px;
     position: relative;
     bottom: 35px;
@@ -192,7 +192,7 @@
         padding: 10px;
         height: 52px;
         /* border: 1px solid  rgb(1, 209, 105); */
-        border: 3px solid  rgba(106, 15, 233); ;
+        border: 3px solid rgb(1, 78, 73) ;
         border-radius: 5px;
         background-color: transparent;
         outline: none;
@@ -232,7 +232,7 @@
     .sbtn{
         width: 120px;
         height: 40px;
-        border: solid rgba(106, 15, 233);
+        border: solid rgb(1, 78, 73);
         border-radius: 5px;
         position: relative;
         bottom: 35px;

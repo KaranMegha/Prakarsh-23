@@ -98,7 +98,7 @@ input{
     width: 600px;
 }
 
-.btnprimary {
+/* .btnprimary {
     width: 120px;
     height: 40px;
     background-color: #1d2a2e;
@@ -106,7 +106,7 @@ input{
     border-radius: 5px;
     color: rgb(1, 209, 105);
     position: relative;
-    left: 650px;
+    left: 180px;
     bottom: 80px;
     
    
@@ -116,9 +116,9 @@ input{
 .sbtn{
     width: 120px;
     height: 40px;
-    border: solid rgba(106, 15, 233);
+    border: solid rgb(1, 78, 73);
     border-radius: 5px;
     position: relative;
     bottom: 35px;
     right: 9px;
-}
+} */

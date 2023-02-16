@@ -64,11 +64,11 @@ const registration = () => {
           
         </div>
            
-        <button className="btnprimary r-rect ">
+        {/* <button className="btnprimary r-rect ">
             Get Link
             <div className="sbtn " />
           
-        </button>
+        </button> */}
 
 
 
