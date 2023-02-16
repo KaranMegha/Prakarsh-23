@@ -71,11 +71,7 @@
 
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(
-    90.21deg,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.6)
-  );
+  
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -94,12 +90,23 @@
 .proj-txtx {
   position: absolute;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
   opacity: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90.21deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)
+  );
 }
+
 .title p{
   padding: 1px;
   margin: 0;
