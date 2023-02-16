@@ -80,7 +80,7 @@ export const NavBar = () => {
                 Glimpse
               </Nav.Link>
               <Nav.Link
-                href="/#sponser"
+                href="/#Sponser"
                 className={
                   activeLink === "Sponser"
                     ? "active navbar-link"

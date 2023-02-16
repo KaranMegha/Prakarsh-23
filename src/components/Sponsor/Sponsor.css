@@ -4,12 +4,13 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 5rem auto;
     /* width: 100%; */
     max-width: 1200px;
     padding: 0 20px;
+    
 }
 
-.card{
-    width: 100px;
+h1{
+    text-align: center;
 }

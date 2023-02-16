@@ -26,37 +26,16 @@ export const SponserCard = ( ) => {
     <h2 className="front-text mx-auto">Sponser</h2>
   </div>  
 
-  <div className="titlesponser arrange">
+  <div className="titlesponser ">
     <h1> Title Sponser</h1>
 
-  <div className=' '>
-      <Card className='card'>
-      <Card.Img  src= "assests/Events/cyber.png" />
-      
-    </Card>
-      </div>
-
-      <Card className='card  d-flex align-items-center justify-content-center '>
-      <Card.Img className='d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
-      
-    </Card>
-
-
-  </div>
- 
-
-  <div className="poweredsponser">
-    <h1> Powered Sponser</h1>
-
-  <div className='container bg'>
-      <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+  <div className="arrange">
+  <Card className='card mx-auto d-flex align-items-center justify-content-center'>
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>
-      </div>
 
-<div className='container bg'>
-      <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+    <Card className='card mx-auto d-flex align-items-center justify-content-center'>
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>
@@ -66,17 +45,38 @@ export const SponserCard = ( ) => {
   </div>
  
 
-  <div className="goldsponser">
-    <h1> Gold Sponser</h1>
+  <div className="poweredsponser">
+    <h1> Powered Sponser</h1>
 
-  <div className='container bg'>
-      <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+        <div className="arrange">
+        <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+      <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
+      
+    </Card>
+      
+
+
+    <Card className='card mx-auto d-flex align-items-center justify-content-center'>
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>
       </div>
 
-<div className='container bg'>
+
+  </div>
+ 
+
+  <div className="goldsponser">
+    <h1> Gold Sponser</h1>
+
+  <div className='arrange'>
+      <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+      <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
+      
+    </Card>
+      
+
+
       <Card className='card mx-auto d-flex align-items-center justify-content-center'>
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
@@ -89,14 +89,14 @@ export const SponserCard = ( ) => {
   <div className="silversponser">
     <h1> Silver Sponser</h1>
 
-  <div className='container bg'>
+  <div className='arrange'>
       <Card className='card mx-auto d-flex align-items-center justify-content-center'>
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>
-      </div>
+      
 
-<div className='container bg'>
+
       <Card className='card mx-auto d-flex align-items-center justify-content-center'>
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
