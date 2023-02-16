@@ -26,23 +26,21 @@ export const SponserCard = ( ) => {
     <h2 className="front-text mx-auto">Sponser</h2>
   </div>  
 
-  <div className="titlesponser">
+  <div className="titlesponser arrange">
     <h1> Title Sponser</h1>
 
-  <div className=' arrange'>
-      <Card >
+  <div className=' '>
+      <Card className='card'>
       <Card.Img  src= "assests/Events/cyber.png" />
       
     </Card>
       </div>
 
-<div className='container bg arrange'>
       <Card className='card  d-flex align-items-center justify-content-center '>
       <Card.Img className='d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>
 
-</div>
 
   </div>
  
