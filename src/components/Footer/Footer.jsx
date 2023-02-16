@@ -20,7 +20,7 @@ class Footer extends React.Component {
     this.submit = this.submit.bind(this);
     this.state = {
       currentDate: new Date(),
-      dateEnter: "07 April, 2023"
+      dateEnter: "05 April, 2023"
     };
     console.log(this.state.currentDate);
   }
