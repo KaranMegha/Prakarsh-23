@@ -1,0 +1,54 @@
+body{
+	background: #000000;
+	background-image: url("../../assets/bgsquares.svg");
+	background-size: cover;
+}
+
+.EventPagebody{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 20vh;
+}
+
+.workshopimg{
+	width: 20vw;
+	
+}
+.about{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.workshops{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100vw;
+	margin-top: 50px;
+}
+h1{
+	font-family: valorant;
+	background:linear-gradient(180deg, rgba(98, 212, 237, 0.8) -27.94%, rgba(172, 112, 255, 0.79) 76.47%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+}
+
+p{
+	width: 30vw;
+	text-align: center;
+	font-family: Unna;
+}
+.about{
+	text-align: center;
+}
+
+@media (max-width:600px){
+	h1{
+		font-size: 0.5rem;
+	}
+	p{
+		font-size: 0.5rem;
+	}
+}
