@@ -1,8 +1,16 @@
-.d-block{
-    width: 250px;
-    padding-bottom: 50px;
+.arrange{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+    /* width: 100%; */
+    max-width: 1200px;
+    padding: 0 20px;
+    
 }
-.c-block{
-    width: 320px;
-    padding-bottom: 60px;
+
+h1{
+    text-align: center;
 }

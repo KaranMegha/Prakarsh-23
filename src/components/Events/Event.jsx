@@ -81,13 +81,13 @@ function Event() {
 
       <div className="heading head mx-auto d-flex align-items-center justify-content-center">
           <h2
-            className="abouthead "
+            className="abouthead  justify-content-center"
             // data-aos="zoom-out"
             // data-aos-offset="300"
             // data-aos-easing="ease-in-out"
             // data-aos-delay="500"
           >
-            Events
+            &nbsp;&nbsp;Events
           </h2>
           <h2 className="front-text mx-auto">Events</h2>
         </div>  
@@ -97,7 +97,7 @@ function Event() {
            <Col>
             <EventCard 
             item={members}
-            imgurl={members.image}
+            imgurl={members.imgurl}
             title={members.title}
             description={members.description}
             link={members.link}
