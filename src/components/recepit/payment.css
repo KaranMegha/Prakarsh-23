@@ -1,0 +1,27 @@
+.wholedoc{
+    /* width: 2480px; */
+    /* height: 3508px; */
+    height:297mm; width:210mm; 
+    margin-left:auto; 
+    margin-right:auto;
+    border: 2px solid black;
+    background-image: url('../../assets/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    overflow: hidden;
+    z-index: -1;
+
+    
+}
+
+   .wholedoc img{
+    opacity: 0.6;  
+   }
+
+
+#title{
+    font-family: "Valorant";
+
+    margin: 4rem 0;
+}
