@@ -29,7 +29,6 @@
     text-align: center;
     position: relative;
     z-index: 1;
-
 }
 
 
@@ -37,6 +36,7 @@
     font-family: "Valorant";
     margin: 4rem 0;
     font-size: 4rem;
+    margin-left: 2rem;
     /* -webkit-text-stroke: px; */
     /* color: rgba(10, 30, 60, 1); */
 }
