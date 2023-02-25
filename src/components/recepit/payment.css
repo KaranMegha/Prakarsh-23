@@ -5,20 +5,135 @@
     margin-left:auto; 
     margin-right:auto;
     border: 2px solid black;
-    background-image: url('../../assets/logo.svg');
-    opacity: 0.4;
-    
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 70%;
-    z-index: -1;
     
 
     
+}
+
+
+.wholedoc img{
+    height: 297mm;
+    width: 160mm;
+    margin-left: 25mm;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.4;
+
+    position: absolute;
+}
+
+.titlereceipt{
+    font-family: "Valorant";
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
 }
 
 
 #title{
     font-family: "Valorant";
     margin: 4rem 0;
+    font-size: 4rem;
+    /* -webkit-text-stroke: px; */
+    /* color: rgba(10, 30, 60, 1); */
 }
+
+
+ .payref span
+ {
+    font-size: 32px;
+    font-weight: bolder;
+    color: black;
+    margin: 0 0.5rem;
+
+ }
+
+ .payref{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+ }
+
+ .amount{
+    color:rgba(0, 0, 0, 0.5);   
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 3rem 1rem;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    
+ }
+
+ .amount::after{
+    content: "";
+    
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    background-color: black;
+    top: 110%;
+    left: 0;
+ }
+ 
+
+ .amount span{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: black;
+    /* margin: 0 0.4rem; */
+ }
+
+ .billdate{
+    display: grid;
+    grid-template-columns: 20rem 20rem;
+    margin: 1rem 1rem;
+    justify-content: space-between;
+ }
+
+ .issuedto h3 , .paid_on h3{
+  color:rgba(0, 0, 0, 0.5); 
+    font-size: 2rem; 
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+ }
+
+ .issuedto{
+    text-align: left;
+ }
+
+    .paid_on{
+        text-align: right;
+    }
+ 
+ 
+    .email{
+        font-size: larger;
+    }
+    .paid_date{
+        font-size: larger;
+    }
+
+    .payee{
+        font-size: larger;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 1rem 1rem ;
+    }
+    
+    .payee h2{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:rgba(0, 0, 0, 0.5); 
+
+    }
+
+    .billqty{
+        margin: 5rem 0;
+    }
+
+    
