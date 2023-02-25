@@ -6,22 +6,19 @@
     margin-right:auto;
     border: 2px solid black;
     background-image: url('../../assets/logo.svg');
+    opacity: 0.4;
+    
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
-    overflow: hidden;
+    background-size: 70%;
     z-index: -1;
+    
 
     
 }
 
-   .wholedoc img{
-    opacity: 0.6;  
-   }
-
 
 #title{
     font-family: "Valorant";
-
     margin: 4rem 0;
 }
