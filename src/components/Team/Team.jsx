@@ -42,8 +42,8 @@ function Team() {
 
   const developers = [
     {
-      imgUrl: "logo192.png",
-      name: "Developers",
+      imgUrl: "assests/Team/parth.png",
+      name: "Parth Vadhwana",
       animation: "",
       githublink: "",
       linkdnlink: "",

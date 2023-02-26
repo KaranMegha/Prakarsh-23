@@ -33,8 +33,12 @@
   text-align: center;
   z-index: 0;
 }
+.title{
+  padding: 5px;
+  color: #000;
+}
 .proj-imgbx img{
-  border-radius: 50%;
+  border-radius: 0 0 15% 15%;
 }
 .project .nav.nav-pills .nav-link::before {
   content: "";
@@ -67,6 +71,7 @@
   overflow: hidden;
   width: 200px;
   margin-bottom: 24px;
+  margin-top: 15px;
 }
 
 .proj-imgbx::before {
