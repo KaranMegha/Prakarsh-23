@@ -1,7 +1,7 @@
 import React from 'react'
 import './ParticularEventPage.css'
-import workshopimg from '../../assets/workshopimg.svg'
-import workshopimg1 from '../../assets/workshopimg1.svg'
+import workshopimg from '../../assests/Events/ws.png'
+import workshopimg1 from '../../assests/Events/ws.png'
 const ParticularEventPage = () => {
   return (
     <div>

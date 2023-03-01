@@ -14,11 +14,11 @@ export const TeamCard = ({name,Position, imgUrl, githublink, linkdnlink,animatio
           <a href={linkdnlink}><AiFillLinkedin/></a>
           </div>
         </div>
-      </div>
         <div className="title ">
         <p className='name mx-auto d-flex align-items-center justify-content-center'>{name}</p>
         <p className='name mx-auto d-flex align-items-center justify-content-center'>{Position}</p>
         </div>
+      </div>
       
     </Col>
   )

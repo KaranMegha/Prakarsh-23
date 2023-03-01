@@ -13,7 +13,9 @@
   margin: 0 auto;
   border-radius: 100px;
 }
-
+.name{
+  color: #fff;
+}
 .project .nav.nav-pills .nav-item {
   width: 50%;
 }
@@ -33,12 +35,13 @@
   text-align: center;
   z-index: 0;
 }
-.title{
+ .title p{
   padding: 5px;
-  color: #000;
+  color: #fff;
 }
 .proj-imgbx img{
-  border-radius: 0 0 15% 15%;
+  /* border-radius: 0 0 15% 15%; */
+  border-radius: 50%;
 }
 .project .nav.nav-pills .nav-link::before {
   content: "";
@@ -117,13 +120,14 @@
   margin: 0;
   font-family: ubuntu;
   font-weight: 700;
+  color: #fff;
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
 }
 .proj-imgbx{
-  /* background: #13274b; */
+  background: #13274b;
 }
 .proj-txtx h4 {
   font-size: 30px;

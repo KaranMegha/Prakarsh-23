@@ -55,7 +55,7 @@ function Event() {
       imgurl: "assests/Events/ws.png",
       title: "workshop",
       description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna leo, porta a justo at, suscipit scelerisque erat. Quisque risus dui, ultrices ac semper sed,",
-      link: "",
+      link: "EventPage.jsx",
     },
     {
       imgurl: "assests/Events/fab.png",
