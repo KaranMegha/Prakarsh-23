@@ -17,7 +17,7 @@ const HomePage = () => {
       {/* <NavBar/> */}
       <Home/>
       <About/>
-      <Event/>
+      {/* <Event/> */}
       <SEvent/>
       <Sponsor/>
       {/* <EventPage/> */}

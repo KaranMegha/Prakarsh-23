@@ -11,19 +11,19 @@ function Event() {
   const event = [
     {
       imgurl: "assests/Events/cyber.png",
-      title: "cyber intrusion",
+      title: "TechFest",
       description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna leo, porta a justo at, suscipit scelerisque erat. Quisque risus dui, ultrices ac semper sed,",
-      link: "",
+      link: "./TechFest",
     },
     {
       imgurl: "assests/Events/wheels.png",
-      title: "wheels & wings",
+      title: "Avanta expo",
       description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna leo, porta a justo at, suscipit scelerisque erat. Quisque risus dui, ultrices ac semper sed,",
       link: "",
     },
     {
       imgurl: "assests/Events/circuithive.png",
-      title: "Circuithive",
+      title: "Open R",
       description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna leo, porta a justo at, suscipit scelerisque erat. Quisque risus dui, ultrices ac semper sed,",
       link: "",
     },
@@ -52,7 +52,7 @@ function Event() {
             // data-aos-easing="ease-in-out"
             // data-aos-delay="500"
           >
-            &nbsp;&nbsp;Special
+            &nbsp;&nbsp;Event
           </h2>
           <h2 className="front-text mx-auto">Events</h2>
         </div>  

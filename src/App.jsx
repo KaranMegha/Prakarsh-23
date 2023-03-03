@@ -10,6 +10,7 @@ import { NavBar } from "./components/Nav/NavBar";
 import Glimpse from "./components/Glimpse/Glimpse";
 import Signup from "./components/Signup/Signup";
 import Registration from "./components/registration/registration";
+import TechFest from "./components/Events/Event";
 import { render } from "@testing-library/react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
@@ -25,6 +26,7 @@ const App = () => {
       <Route path="/" element={<HomePage/>}/>
       <Route path="/signup" element={<Signup/>}/>
       <Route path="/registration" element={<Registration/>}/>
+      <Route path="/TechFest" element={<Event/>}/>
       </Routes>
       </BrowserRouter>
         

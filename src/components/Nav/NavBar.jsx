@@ -60,7 +60,7 @@ export const NavBar = () => {
                 About
               </Nav.Link>
               <Nav.Link
-                href="/#Events"
+                href="/#TechFest"
                 className={
                   activeLink === "Events" ? "active navbar-link" : "navbar-link"
                 }
