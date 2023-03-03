@@ -99,6 +99,8 @@
     .home__container {
         gap: 5rem;
     }
+
+    
     .home__logo {
         width: 50%;
         margin: 2rem auto 4rem;
@@ -124,15 +126,26 @@
     #home {
         padding-top: 100px;
     }
+
     .glow {
         font-size: 40px;
     }
     .home__container {
-        gap: 5rem;
+        gap: 2rem;
     }
+    .home__container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0rem;
+    }
+    /* .video{
+        width: 100px;
+        /* gap: 2rem; */
+
+    
     .home__logo {
-        width: 90%;
-        margin: 2rem auto 4rem;
+        width: 60%;
+        margin: 2rem 1rem 4rem;
     }
     .home__content .home__title h5 {
         font-size: 35px;
@@ -147,10 +160,11 @@
     }
     .home__content .glow {
         text-align: center;
+        font-size: 25px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px ) {
     .home__container {
         display: flex;
         flex-direction: column-reverse;
