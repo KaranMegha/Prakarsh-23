@@ -26,6 +26,12 @@
     margin: 15px;
     
 }
+.container .card:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+    
+
 .imgc{
     width: 90%;
     padding-top: 15px;

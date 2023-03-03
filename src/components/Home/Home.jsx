@@ -39,7 +39,7 @@ const Home = () => {
             title="Advertisement"
             webkit-playsinline="true"
             playsinline="true"
-             width="600px"
+             width="700px"
             autoplay="true"
             muted="muted"
             ref={vidRef} src={"/assests/loader.mp4"} playsInline={true}/>

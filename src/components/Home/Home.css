@@ -15,7 +15,7 @@
 .home__container {
     display: grid;
     grid-template-columns: 50% 35%;
-    gap: 15%;
+    gap: 10%;
     overflow: hidden;
     margin-top: 5rem;
     padding-bottom: 4rem;

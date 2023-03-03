@@ -70,10 +70,11 @@
 
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 20px;
   overflow: hidden;
-  width: 200px;
-  margin-bottom: 24px;
+  width: 240px;
+  height: 310px;
+  margin-bottom: 26px;
   margin-top: 15px;
 }
 
@@ -128,6 +129,8 @@
 }
 .proj-imgbx{
   background: #13274b;
+  /* width: 500px; */
+  padding: 10px;
 }
 .proj-txtx h4 {
   font-size: 30px;
