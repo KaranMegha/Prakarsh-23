@@ -8,7 +8,7 @@ import Sponsor from './Sponsor/Sponsor';
 import Team from './Team/Team';
 import Footer from './Footer/Footer';
 import SEvent from './SpecEvents/SEvent';
-// import EventPage from './EventPage/EventPage';
+import EventPage from './EventPage/EventPage';
 // import ParticularEventPage from './ParticularEventPage/ParticularEventPage';
 
 const HomePage = () => {
@@ -20,7 +20,7 @@ const HomePage = () => {
       {/* <Event/> */}
       <SEvent/>
       <Sponsor/>
-      {/* <EventPage/> */}
+      <EventPage/>
       {/* <ParticularEventPage/> */}
       <Team/>
       <Glimpse/>

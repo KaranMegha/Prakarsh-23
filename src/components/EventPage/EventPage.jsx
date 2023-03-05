@@ -1,6 +1,6 @@
 import React from 'react'
 import './EventPage.css'
-import workshopimg from '../assests/Events/ws.png'
+import workshopimg from "./../../assets/ws.png"
 const EventPage = () => {
   return (
     <div id='eventpage' className="EventPagebody">

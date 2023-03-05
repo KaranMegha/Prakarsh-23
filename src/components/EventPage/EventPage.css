@@ -1,6 +1,6 @@
 body{
-	background: #000000;
-	background-image: url("../../assets/bgsquares.svg");
+	background: var(--bg);
+	
 	background-size: cover;
 }
 
