@@ -20,7 +20,7 @@ const HomePage = () => {
       {/* <Event/> */}
       <SEvent/>
       <Sponsor/>
-      <EventPage/>
+      {/* <EventPage/> */}
       {/* <ParticularEventPage/> */}
       <Team/>
       <Glimpse/>

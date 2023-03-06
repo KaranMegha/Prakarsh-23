@@ -14,6 +14,7 @@ import TechFest from "./components/Events/Event";
 import { render } from "@testing-library/react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
+import EventPage from "./components/EventPage/EventPage";
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
       <Route path="/signup" element={<Signup/>}/>
       <Route path="/registration" element={<Registration/>}/>
       <Route path="/TechFest" element={<Event/>}/>
+      <Route path="/EventPage" element={<EventPage/>}/>
       </Routes>
       </BrowserRouter>
         

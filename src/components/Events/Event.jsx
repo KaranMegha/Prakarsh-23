@@ -55,7 +55,7 @@ function Event() {
       imgurl: "assests/Events/ws.png",
       title: "workshop",
       description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna leo, porta a justo at, suscipit scelerisque erat. Quisque risus dui, ultrices ac semper sed,",
-      link: "EventPage.jsx",
+      link: "/EventPage",
     },
     {
       imgurl: "assests/Events/fab.png",
@@ -100,8 +100,7 @@ function Event() {
             imgurl={members.imgurl}
             title={members.title}
             description={members.description}
-            link={members.link}
-              
+            link={members.link} 
             />
             </Col>
           ))}

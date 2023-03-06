@@ -15,13 +15,13 @@ export const SponserCard = ( ) => {
 
   <div className="heading head mx-auto d-flex align-items-center justify-content-center">
     <h2
-      className="abouthead  justify-content-center"
+      className="abouthead text-align-center justify-content-center"
       // data-aos="zoom-out"
       // data-aos-offset="300"
       // data-aos-easing="ease-in-out"
       // data-aos-delay="500"
     >
-      &nbsp;&nbsp;Sponser
+      Sponser
     </h2>
     <h2 className="front-text mx-auto">Sponser</h2>
   </div>  
