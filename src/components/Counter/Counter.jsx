@@ -21,8 +21,8 @@ class Counter extends React.Component {
         userDate = new Date(userDate);
         userDate = userDate.getTime();
         let TimeLeft = userDate - Date.parse(new Date());
-        console.log('this is TimeLeft', TimeLeft)
-        console.log(TimeLeft + ' hey');
+        // console.log('this is TimeLeft', TimeLeft)
+        // console.log(TimeLeft + ' hey');
         this.setState({
             days: (TimeLeft / (60 * 60 * 24 * 1000)).toFixed(0),
             hours: (TimeLeft / (60 * 60 * 1000)).toFixed(0) % 24,

@@ -6,19 +6,20 @@ body{
 
 .EventPagebody{
 	display: flex;
-	justify-content: center;
+	align-items: center;
 	flex-direction: column;
 	margin-top: 20vh;
 }
 
 .workshopimg{
-	width: 20vw;
+	width: 100%;
+	max-width: 400px;
 	
 }
 .about{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	align-items: center;
 }
 .workshops{
 	display: flex;
@@ -36,7 +37,7 @@ h1{
 }
 
 .p{
-	width: 30vw;
+	/* width: 30vw; */
 	text-align: center;
 	font-family: Unna;
 }
@@ -44,11 +45,11 @@ h1{
 	text-align: center;
 }
 
-@media (max-width:600px){
+/* @media (max-width:600px){
 	h1{
 		font-size: 0.5rem;
 	}
 	p{
 		font-size: 0.5rem;
 	}
-}
+} */

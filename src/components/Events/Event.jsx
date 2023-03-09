@@ -8,6 +8,7 @@ import supabase from '../../lib/client'
 
 
 function Event() {
+  // console.log(data);
   const event = [
     {
       imgurl: "assests/Events/cyber.png",
@@ -70,6 +71,8 @@ function Event() {
   //   async function getEvents() {
   //     let { data, error } = await supabase.from("Event").select("*").eq("catagory", "cyber intrusion");
   //     setEvent(data);
+  //     console.log(data);
+  //     console.log(error);
   //   }
 
   //   getEvents();
