@@ -30,12 +30,12 @@ export const SponserCard = ( ) => {
     <h1> Title Sponser</h1>
 
   <div className="arrange">
-  <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+  <Card className='card mx-auto d-flex align-items-center justify-content-center '  data-aos="flip-left"   data-aos-offset="200"  data-aos-once="false" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-duration="3500" >
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>
 
-    <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+    <Card className='card mx-auto d-flex align-items-center justify-content-center ' data-aos="flip-right"   data-aos-offset="200"  data-aos-once="false" data-aos-easing="ease-in-out"  data-aos-duration="3500" data-aos-mirror="true">
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>
@@ -49,14 +49,14 @@ export const SponserCard = ( ) => {
     <h1> Powered Sponser</h1>
 
         <div className="arrange">
-        <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+        <Card className='card mx-auto d-flex align-items-center justify-content-center' data-aos="flip-left"   data-aos-offset="200"  data-aos-once="false" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-duration="3500">
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>
       
 
 
-    <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+    <Card className='card mx-auto d-flex align-items-center justify-content-center' data-aos="flip-right"   data-aos-offset="200"  data-aos-once="false" data-aos-easing="ease-in-out"  data-aos-duration="3500" data-aos-mirror="true">
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>
@@ -70,14 +70,14 @@ export const SponserCard = ( ) => {
     <h1> Gold Sponser</h1>
 
   <div className='arrange'>
-      <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+      <Card className='card mx-auto d-flex align-items-center justify-content-center' data-aos="flip-left"   data-aos-offset="200"  data-aos-once="false" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-duration="3500">
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>
       
 
 
-      <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+      <Card className='card mx-auto d-flex align-items-center justify-content-center' data-aos="flip-right"   data-aos-offset="200"  data-aos-once="false" data-aos-easing="ease-in-out"  data-aos-duration="3500" data-aos-mirror="true">
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>
@@ -90,14 +90,14 @@ export const SponserCard = ( ) => {
     <h1> Silver Sponser</h1>
 
   <div className='arrange'>
-      <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+      <Card className='card mx-auto d-flex align-items-center justify-content-center' data-aos="flip-left"   data-aos-offset="200"  data-aos-once="false" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-duration="3500">
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>
       
 
 
-      <Card className='card mx-auto d-flex align-items-center justify-content-center'>
+      <Card className='card mx-auto d-flex align-items-center justify-content-center' data-aos="flip-right"   data-aos-offset="200"  data-aos-once="false" data-aos-easing="ease-in-out"  data-aos-duration="3500" data-aos-mirror="true">
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src= "assests/Events/cyber.png" />
       
     </Card>

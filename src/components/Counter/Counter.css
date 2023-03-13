@@ -1,10 +1,15 @@
 #timeCounter{
-    border: 1px solid white;
+    border: transparent;
     align-items: center;
     text-align: center;
     width: 70px;
     height: 120px;
     margin: 0;
+    color: green;
+    -webkit-text-stroke: 2px;
+    -webkit-text-fill-color: green;
+    /* -webkit-text-stroke-width: 1px; */
+    /* font-size: 50px; */
 }
 
 /* hr{
