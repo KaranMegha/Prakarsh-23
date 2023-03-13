@@ -11,8 +11,7 @@ import { AiFillFacebook } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import belowfooterlogo from "../../assets/belowfooterlogo.svg";
 import Counter from "../Counter/Counter";
-import svit from '../../assets/svitlogo.png'
-
+import svit from "../../assets/svitlogo.png";
 
 class Footer extends React.Component {
   constructor(props) {
@@ -20,7 +19,7 @@ class Footer extends React.Component {
     this.submit = this.submit.bind(this);
     this.state = {
       currentDate: new Date(),
-      dateEnter: "05 April, 2023"
+      dateEnter: "05 April, 2023",
     };
     console.log(this.state.currentDate);
   }
@@ -28,29 +27,26 @@ class Footer extends React.Component {
   submit() {
     let userDateEnter = this.refs.dateEnter.value;
     this.setState({
-      dateEnter: userDateEnter
+      dateEnter: userDateEnter,
     });
     console.log(userDateEnter);
   }
 
-render(){
-  return (
+  render() {
+    return (
+      <section id="footer">
+        <div className="f">
+          <div className="footer">
+            <div className=" left">
+              <img src={footer} alt="footer" />
+            </div>
 
-    <section id="footer">
-      
-      <div className="f">
-        <div className="footer">
-          <div className=" left">
-            <img src={footer} alt="footer"/>
-            
-          </div>
-          
-          <div className="right">
-            {/* <h1>
+            <div className="right">
+              {/* <h1>
               <b> contact us </b>{" "}
             </h1> */}
-            <div className="finfo">
-              {/* <a href="#" className="flinks">
+              <div className="finfo">
+                {/* <a href="#" className="flinks">
                 {" "}
                 <IoLocationSharp className="ficons" />
                 Sardar Vallabhai Patel institute of Technology{" "}
@@ -65,40 +61,39 @@ render(){
                 <AiFillPhone className="ficons" /> 0123456789{" "}
               </a> */}
 
-              <div className="icon">
-              <Counter
-          date={this.state.dateEnter}
-          currentDate={this.state.currentDate}
-        />
-        <div className="icons">
-                <a href="https://instagram.com/svitprakarsh?igshid=OGQ2MjdiOTE=">
-                  <BsInstagram />
-                </a>
-                <a href="https://www.youtube.com/@prakarsh6253/videos">
-                  <AiOutlineYoutube />
-                </a>
-                <a href="https://www.linkedin.com/in/placement-cell-svit-vasad-2a8062204/">
-                  <AiFillLinkedin />
-                </a>
-                <a href="https://www.facebook.com/SVIT.Vasad.Official">
-                  <AiFillFacebook />
-                </a>
+                <div className="icon">
+                  {/* <Counter
+                    date={this.state.dateEnter}
+                    currentDate={this.state.currentDate}
+                  /> */}
+                  <div className="icons">
+                    <a href="https://instagram.com/svitprakarsh?igshid=OGQ2MjdiOTE=">
+                      <BsInstagram />
+                    </a>
+                    <a href="https://www.youtube.com/@prakarsh6253/videos">
+                      <AiOutlineYoutube />
+                    </a>
+                    <a href="https://www.linkedin.com/in/placement-cell-svit-vasad-2a8062204/">
+                      <AiFillLinkedin />
+                    </a>
+                    <a href="https://www.facebook.com/SVIT.Vasad.Official">
+                      <AiFillFacebook />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
+            {/* <hr /> */}
           </div>
-          {/* <hr /> */}
-        </div>
-        <div className="belowhr">
-          <div>
-            <img src={belowfooterlogo} />
+          <div className="belowhr">
+            <div>
+              <img src={belowfooterlogo} />
+            </div>
           </div>
         </div>
-          
-    </div>
-</section>
-  );
-}
+      </section>
+    );
+  }
 }
 
 export default Footer;

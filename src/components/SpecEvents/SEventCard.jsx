@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 export const EventCard = ({ imgurl, title, description,link}) => {
   return (
     <Link to={link}style={{ textDecoration: 'none' }} >
-    <div className='container bg'>
+    {/* <div className='container bg'>
       <Card className='card mx-auto d-flex align-items-center justify-content-center'>
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src={imgurl} />
       <Card.Body>
@@ -19,9 +19,11 @@ export const EventCard = ({ imgurl, title, description,link}) => {
           {description}
         </Card.Text>
         {/* <Button className='mx-auto d-flex align-items-center justify-content-center button' variant="primary">view more</Button> */}
-      </Card.Body>
-    </Card>
-    </div>
+      {/* </Card.Body> */}
+    {/* </Card> */}
+    {/* </div> */} 
+
+    
     </Link>
   )
 }

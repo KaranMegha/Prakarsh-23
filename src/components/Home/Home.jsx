@@ -1,10 +1,11 @@
-import React,{useEffect,useRef} from "react";
+import React,{useEffect,useState, useRef} from "react";
 import "./Home.css";
 import IMG from "../../assets/logo.svg";
 import Title from "../../assets/title.png";
 import { NavBar } from "../Nav/NavBar";
+import Counter from "../Counter/Counter";
 const Home = () => {
-
+  const [curdate, setCurdate] = useState(new Date().toLocaleDateString());
   const vidRef = useRef(null);
 
   useEffect(()=>{
@@ -29,8 +30,12 @@ const Home = () => {
             to encourage them in the advancement of their lives through
             technologies developed in Prakarsh by students.{" "}
           </p>
-          <div className="glow mx-auto d-flex align-items-center justify-content-center">
-            <a href="#event">explore events</a>
+          <div className="icon  mx-auto d-flex align-items-center justify-content-center">
+            {/* <a href="#event">explore events</a> */}
+            <Counter
+          date={"05 April, 2023"}
+          currentDate={curdate}
+        />
           </div>
           <div className="home__btn"></div>
         </div>
