@@ -25,9 +25,17 @@ body{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	width: 100vw;
+	width: 90vw;
 	margin-top: 50px;
+ border:1px solid rgba(172, 112, 255, 0.329);
+	
+	box-shadow: 5px 5px 12px rgba(172, 112, 255, 0.329),
+                -5px -5px 12px rgba(172, 112, 255, 0.33),
+                5px 5px 10px rgba(172, 112, 255, 0.33),
+                -5px -5px 10px rgba(172, 112, 255, 0.329);
+
 }
+
 h1{
 	font-family: valorant;
 	background:linear-gradient(180deg, rgba(98, 212, 237, 0.8) -27.94%, rgba(172, 112, 255, 0.79) 76.47%);

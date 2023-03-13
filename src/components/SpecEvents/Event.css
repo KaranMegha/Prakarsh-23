@@ -7,6 +7,7 @@
                 5px 5px 10px rgba(172, 112, 255, 0.33),
                 -5px -5px 10px rgba(172, 112, 255, 0.329);
     width: 17.5rem;
+
     /* height: fit-content; */
     filter: drop-shadow(5px 5px 10px rgba(172, 112, 255, 0.33));  
 }
@@ -21,14 +22,16 @@
     /* position: relative; */
     /* min-width: 2000px; */
     z-index:0;
+    margin: 5rem 0 ;
 }
 .bg{
-    margin: 15px;
+    margin: 25px;
     
 }
 .container .card:hover{
     transform: scale(1.05);
     transition: 0.5s;
+
 }
     
 
